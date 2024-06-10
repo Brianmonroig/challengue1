@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: roboto;
+}
+body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    width: 60vh;
+    /* margin: auto; */
+    padding: auto;
+    padding-bottom: 10px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.container img{
+    max-width:  90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+.attribution{
+    margin-top: 20px;
+    margin-right: 20px;
+}
